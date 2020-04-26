@@ -6,6 +6,7 @@ def test_abs2():
     assert abs(-42) == -42, "Should be absolute value of a number"
 
 
+# executed only if run via command line > python Pytest_examples/test_abs.py
 if __name__ == "__main__":
     test_abs1()
     test_abs2()
